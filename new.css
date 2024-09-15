@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+.maincontent{
+    height: 800px;
+    background-image: url("vande\ bharat\ photo.avif");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(130, 224, 166);
+    border: solid greenyellow 5px;
+    border-radius: 10px;
+    margin: 0px 50px 0px 70px;
+    padding:20px;
+    font-size: 35px;
+    width: 85%;
+    cursor: pointer;
+}
+
+.search{                          
+    height: 610px;
+    width: 500px;
+    margin-left: 5%;
+    position: relative;
+    top: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 10px whitesmoke;
+}    
+
+.pnr{
+    background-color:#213d77;
+    color: aliceblue;
+    display: inline-block;
+    width: 249px; 
+    height: 40px;
+    transition-duration: 1s;
+    padding: 8px 14px 14px 8px;
+    text-align: center;
+}    
+
+.pnr:hover{
+    background-color:#0047AB; 
+}
+
+.ch{
+    background-color:#213d77;
+    color: aliceblue;
+    display: inline-block;
+    width: 247px; 
+    height: 40px;
+    transition-duration: 1s;  
+    padding: 8px 14px 14px 8px;
+    text-align: center;
+} 
+
+.ch:hover{
+    background-color:#0047AB;
+}
+
+.ticket{
+    color: #213d77;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#img1{
+    width: 100px;
+    height: 150px;
+    float: right;
+}            
+
+#img2{
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+
+.form{
+    position: relative;
+    margin-top: 100px;
+}          
+
+select{
+    width: 210px;
+    height: 28px; 
+}
+
+#form2{
+    margin-left: 100px;
+    width: 150px;
+    height: 30px; 
+}
+
+#form1{
+       margin-left: 20px;
+}
+
+#form3{
+    margin-left: 20px;
+}
+
+#form4{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 150px;
+    height: 30px; 
+}
+
+#form5{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+label{
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}   
+
+.button1{
+    background-color:#fb792b;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.button1:hover{      
+    border: 1px solid #fb792b;
+}
+
+.button2{
+    background-color:#01bb0a;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    color:aliceblue;
+    font-size: 18px;
+    margin-left: 80px;
+    cursor: pointer;
+    transition-duration: 1s;
+}  
+
+.button2:hover{
+    background-color: #0b9c31;
+}
+
+label{
+    color: #082b71;
+}
+
+.container{
+    width: 500px;
+    height:40px;
+    background-color: #ffffff;
+    margin-left: 5%;
+    margin-top: 20px;
+    size: 20px; 
+    color: #0000ff;
+}     
+
+.ad1{
+    border: 2px rgb(228, 222, 222) solid;
+    background-color: #f2f2f0;
+    text-align: center;
+}
+
+.ad2{
+    text-align: center;
+}
+
+.text{
+    height: 75px;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.34px;
+    line-height: 37.4px;
+    font-family: Body, Quicksand, sans-serif;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.links{
+    width: 1000px;
+    height: 350px;
+    margin-left: 175px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.lower{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    padding-top: 22px;
+    color: black;
+    border-radius: 100px;
+    border: solid 1px black;
+    gap: 5px;
+}
+
+i{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+h4{
+    margin-left: 0px;
+}
+
+.div1:hover{
+    background-color: #1457a7;
+}
+
+.ad3{
+    height: 90px;
+    text-align: center;
+}
+
+.bigcontainer{
+    height: 1350px;
+    background-color: #f2f2f0;
+}
+
+.adcontainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.adcontainer2{
+    margin-top: 20px;
+    margin-left: 120px;
+    column-gap: 60px;
+    display: flex;
+}
+
+h2{
+    height: 38px;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.blog1{
+    height: 600px;
+    width: 350px;
+    background-color: white;
+}
+
+h4{
+    height: 27px;
+    width: 306px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+
+p{
+    width: 306px;
+    height: 183.5px;
+    font-family: Body, Quicksand, sans-serif;
+    margin: 20px 0px 10px 15px;
+    text-align: justify;
+    font-size: 13.5px;
+    letter-spacing: 0.35px;
+    line-height: 23px;
+}
+
+.socialmedia{
+    height: 72px;
+    background-image: linear-gradient(270deg, rgb(155, 75, 144) 0px, rgb(44, 33, 93));
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.mediacontent{
+    width: 311px;         
+    height: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 0.35px;
+    line-height: 55px;
+}
